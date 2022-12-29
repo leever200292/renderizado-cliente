@@ -1,0 +1,44 @@
+#plan {
+    background-color: #000000;
+}
+
+
+.form-notificaciones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.notificaciones {
+    height: auto;
+    overflow: hidden;
+    background-image: url(img/dos.fw.png);
+    background-attachment: fixed;
+    padding: 30px 0px;
+    color: #fff;
+}
+
+.notificaciones h4 {
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+
+.boton-not {
+    padding: 17px 35px;
+    background: #b83131;
+    color: #fff;
+    border-radius: 7px;
+    border: none;
+    background: linear-gradient(to right, #9b4c4c, #B83131);
+    box-shadow: 1px 1px 30px -12px #9b4c4c, #B83131;
+    transition: all 300ms;
+    cursor: pointer;
+
+}
+
+.boton-not:hover {
+    background: #ca2626;
+    box-shadow: 1px 1px 15px -6px #B83131;
+}

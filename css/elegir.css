@@ -1,0 +1,60 @@
+.elegir .derecha .texto-naranja {
+    color: #F94F2B;
+}
+
+.elegir .derecha {
+    text-align: left;
+}
+
+
+
+.elegir .derecha h1 {
+    color: #424141;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.elegir .derecha p {
+    color: #7D7A7A;
+    font-weight: 400px;
+}
+
+.elegir {
+    padding: 50px opx;
+}
+
+.img-elige {
+    width: 90%;
+}
+
+.opciones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.opcion {
+    width: 48%;
+    /* border: ; */
+    margin-bottom: 30px;
+    padding: 8px;
+    border-left: 4px solid #df3a01;
+    border-radius: 7px;
+}
+
+
+.opcion:hover {
+    color: #df3a01;
+
+}
+
+.opcion .img-opciones {
+    width: 20%;
+    float: left;
+    margin-right: 10px;
+}
+
+.texto-opciones {
+    margin-top: 14px;
+}
